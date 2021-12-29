@@ -27,7 +27,7 @@ body {
     border-radius: 25px;
     width: 20%;
     min-height: 300px;
-    max-height: 350px;
+
     height: 100%;
     background: #fff;
     margin: 5px;
@@ -99,10 +99,7 @@ body {
 
 .card p {
     font-size: 12px;
-    max-height: 43px;
-
-    overflow: hidden;
-    text-overflow: ellipsis;    
+    
     margin: 10px 0;
 }
 
