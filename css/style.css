@@ -14,7 +14,7 @@ body {
 
 .cards-list{
     box-sizing: content-box;
-    width: 1000px;
+    width: 70%;
     margin: 0 auto;
     padding: 30px 50px;
     text-align: center;
@@ -25,8 +25,10 @@ body {
     display: inline-block;
 
     border-radius: 25px;
-    width: 200px;
-    height: 300px;
+    width: 20%;
+    min-height: 300px;
+    max-height: 350px;
+    height: 100%;
     background: #fff;
     margin: 5px;
 }
@@ -47,8 +49,13 @@ body {
 }
 
 .avatar {
-    width: 120px;
-    height: 120px;
+    min-width: 100px;
+    max-width: 120px;
+    width: 100%;
+    min-height: 100px;
+    max-height: 120px;
+    height: 100%;
+    
     border-radius: 50%;
     border: 5px solid #fff;
     margin: 0 auto;
@@ -56,7 +63,11 @@ body {
 }
 
 .avatar img {
+    min-width: 90px;
+    max-width: 120px;
     width: 100%;
+    min-height: 100px;
+    max-height: 120px;
     height: 100%;
     border-radius: 50%;
 
@@ -98,4 +109,5 @@ body {
 .social img {
     width: 25px;
     height: 25px;
+    margin-bottom: 5px;
 }
